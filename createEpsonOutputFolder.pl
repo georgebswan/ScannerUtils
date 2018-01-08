@@ -159,7 +159,7 @@ sub processFolder {
                        ($content, ('\.[^.]+$') );
 	    #print("\tFile bits are '$dirName', '$fileBaseName', '$fileExtension'\n");
 
-	    if($fileExtension eq ".jpg" || $fileExtension eq ".JPG" || $fileExtension eq ".tif") {
+	    if($fileExtension eq ".jpg" || $fileExtension eq ".JPG" || $fileExtension eq ".tif" || $fileExtension eq ".tiff") {
 
 		# use the orig file name or create a new one
 		if($useOrigFileName == 1) {
